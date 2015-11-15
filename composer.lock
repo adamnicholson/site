@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "73c8080280d0fe75fd09fe22eef3e775",
+    "content-hash": "8be671e150620a216609af59018cd246",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "adamnicholson/server01",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adamnicholson/server01.git",
+                "reference": "fe049bdfcc1daa136f0ff303298796542f2e17a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adamnicholson/server01/zipball/fe049bdfcc1daa136f0ff303298796542f2e17a0",
+                "reference": "fe049bdfcc1daa136f0ff303298796542f2e17a0",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Nicholson",
+                    "email": "adamnicholson10@gmail.com"
+                }
+            ],
+            "time": "2015-11-10 19:19:02"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "adamnicholson/server01": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
