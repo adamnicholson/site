@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+  nginx-web:
+    build: ./docker/nginx-web
+    ports:
+     - "80"
+    volumes:
+     - .:/opt
