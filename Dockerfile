@@ -1,6 +1,3 @@
-FROM nginx:1
+FROM nginx
 
-ADD src /opt/src
-ADD ./nginx.conf /etc/nginx/nginx.conf
-
-EXPOSE 80
+ADD index.html /usr/share/nginx/html/index.html
