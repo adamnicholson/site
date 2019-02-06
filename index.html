@@ -1,59 +1,172 @@
-<?php require __DIR__ . '/../vendor/autoload.php'; ?><html>
+<html>
 <head>
+    <meta charSet="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
     <title>Adam nicholson</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <style type="text/css">
-        html {
-            font-family: sans-serif;
-            font-size: 14px;
-            text-align: center;
-            padding-top: 50px;
-        }
-        h1 {
-            font-size: 2em;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-        .icons {
-            font-size: 4em;
-        }
-        @media (min-width: 400px) {
-            body {
-                padding-top: 200px;
-            }
-        }
-    </style>
-
 </head>
 
-<h1>Adam Nicholson</h1>
+<body>
+<div class="text-serif leading-loose bg-black">
 
-<div class="container">
-    <p>
-        Software developer from Tynemouth, Newcastle Upon Tyne, UK.
+    <div class="bg-blue-light py-8" style="background-image: linear-gradient(135deg, #6cb2eb, #3490dc)">
+
+        <div class="pb-8">
+            <div style="width: 150px; height: 150px;" class="overflow-hidden rounded-full mx-auto border-4 border-blue-dark my-8">
+                <img src="me.jpg" alt="Adam Nicholson Software Engineer" class="-mt-8" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center container max-w-3xl mx-auto">
+
+        <div class="-mt-4 sm:-mt-6">
+            <h1 class="text-grey-dark text-xl sm:text-4xl bg-black rounded-full p-8 inline">Hi, I'm <span class="text-grey-lightest">Adam Nicholson</span></h1>
+        </div>
+
+        <p class="text-center my-4">
+            <a href="http://twitter.com/adamn90"><i class="fa fa-twitter rounded-full text-grey-dark hover:text-grey-dark hover:bg-grey-darkest p-4 mx-2"></i></a>
+            <a href="http://github.com/adamnicholson"><i class="fa fa-github rounded-full text-grey-dark hover:text-grey-dark hover:bg-grey-darkest p-4 mx-2"></i></a>
+            <a href="https://uk.linkedin.com/in/adam-nicholson-506a3b24"><i class="fa fa-linkedin rounded-full text-grey-dark hover:text-grey-dark hover:bg-grey-darkest p-4 mx-2"></i></a>
+        </p>
+
+        <p class="p-4 text-grey-lightest text-lg">
+            I'm a software engineer from a town called <a
+                href="https://www.google.com/maps/place/North+Shields/@54.9664847,-1.5813042,10.5z/data=!4m5!3m4!1s0x487e6e110de459e1:0x4efa08f24a1b4802!8m2!3d55.010762!4d-1.449138" class="text-white font-bold no-underline hover:underline">North Shields</a>, which is near Newcastle Upon Tyne in the UK.
+        </p>
+
+        <p class="p-4 text-grey-lightest text-lg">
+            In my current role at <a href="https://opia.com" class="no-underline text-red-light font-bold">OPIA</a>, most of my focus
+            goes into architecture, from high-level systems design (microservices, programming languages, storage engines, third party tech, infrastructure), to application
+            level code architecture (layered, domain design, asynchronous processing, handling large data sets).
+        </p>
+
+        <p class="p-4 text-grey-lightest text-lg">
+            My interest is in producing high quality, highly reliable, secure, and efficient software, and building teams to do that;
+            which ties in to why I decided to build my side project, <a href="https://whoops.io" title="Uptime Monitoring SaaS" class="text-pink-light font-bold no-underline">Whoops.io</a>.
+        </p>
+
+    </div>
+
+    <div class="container mx-auto max-w-lg text-center my-8 text-lg">
+        <div class="md:flex">
+            <div class="md:w-1/2">
+                <div class="border-2 border-blue-dark rounded-full m-4 p-4 px-8 text-grey-lightest overflow-hidden">
+                    Head of Technology
+                    <span class="text-grey-light px-1">at</span>
+                    <a href="https://opia.com" class="text-red-light hover:text-red-lighter no-underline font-bold" target="_blank">OPIA</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <div class="border-2 border-blue-dark rounded-full m-4 p-4 px-8 text-grey-lightest overflow-hidden">
+                    Creator
+                    <span class="text-grey-light px-1">of</span>
+                    <a href="https://whoops.io" class="text-pink hover:text-pink-light no-underline font-bold" title="Website uptime monitoring SaaS">Whoops.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container max-w-3xl mx-auto pb-8">
+        <div class="md:flex">
+            <div class="md:w-1/5 mb-4">
+                <div class="px-4">
+                    <p class="font-bold text-white">
+                        Things I'm most interested in
+                    </p>
+                    <ul class="list-reset text-grey">
+                        <li>Hands-on software engineering</li>
+                        <li>System reliability</li>
+                        <li>Software architecture & design</li>
+                        <li>Quality assurance</li>
+                        <li>Technology roadmaps</li>
+                        <li><span class="border-b pb-4 border-blue">Building teams</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:w-1/5 mb-4">
+                <div class="px-4">
+                    <p class="font-bold text-white">
+                        Server-side stuff I know
+                    </p>
+                    <ul class="list-reset text-grey">
+                        <li>PHP</li>
+                        <li>Golang</li>
+                        <li>Node.js</li>
+                        <li>Docker</li>
+                        <li>Elastic stack</li>
+                        <li>Rancher</li>
+                        <li>Kubernetes</li>
+                        <li>SQL/MySQL/Postgres</li>
+                        <li>InfluxDB</li>
+                        <li>Redis</li>
+                        <li><span class="border-b pb-4 border-blue">Message queues</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:w-1/5 mb-4">
+                <div class="px-4">
+                    <p class="font-bold text-white">
+                        Frontend stuff I know
+                    </p>
+                    <ul class="list-reset text-grey">
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>Vuex / Redux</li>
+                        <li>Bootstrap</li>
+                        <li><span class="border-b pb-4 border-blue">Tailwind</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:w-1/5 mb-4">
+                <div class="px-4">
+                    <p class="font-bold text-white">
+                        Other stuff I do
+                    </p>
+                    <ul class="list-reset text-grey">
+                        <li>Infrastructure</li>
+                        <li>Project management</li>
+                        <li>Recruitment</li>
+                        <li>Culture management</li>
+                        <li>Infosec & ISO 27001</li>
+                        <li>Pen testing</li>
+                        <li><span class="border-b pb-4 border-blue">UK/EU data protection</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:w-1/5 mb-4 md:text-right">
+                <div class="px-4">
+                    <p class="font-bold text-white">
+                        Things I <em>don't</em> like
+                    </p>
+                    <ul class="list-reset text-grey">
+                        <li>Magic</li>
+                        <li>Spooky action at a distance</li>
+                        <li><span class="border-b pb-4 border-blue">Manual release processes</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-center italic text-grey-dark py-8 leading-loose border-t border-grey-darkest mt-8 px-4">
+        P.S. Please don't judge me on the quality of this site. It's slapdash
     </p>
 </div>
 
-<p class="icons">
-    <a href="http://twitter.com/adamn90"><i class="fa fa-twitter"></i></a>
-    <a href="http://github.com/adamnicholson"><i class="fa fa-github"></i></a>
-    <a href="https://uk.linkedin.com/in/adam-nicholson-506a3b24"><i class="fa fa-linkedin"></i></a>
-</p>
-
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-25680105-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-25680105-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
-
+</body>
 </html>
